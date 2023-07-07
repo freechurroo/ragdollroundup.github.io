@@ -1,0 +1,484 @@
+@charset "UTF-8";
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+a {
+	text-decoration: none;
+	color: #707571 
+}
+a:visited {
+	text-decoration: none;
+	color: #707571
+}
+.body {
+	background-color: #84a5b8; 
+	max-width: 960px;
+}
+.header {
+    color: #84a5b8;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 55px;
+    padding-top: 13px;
+    text-shadow: 4px 0px #52687c;
+    font-weight: bold;
+}
+.banner {
+    width: 570px;
+    height: 200px;
+    border: 10px solid #707571;
+    margin-top: 70px;
+	background-image: url(../pictures/Screenshot%202023-06-25%20at%2010.52.29%20PM.png);
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	margin-left: 100px
+}
+.Navigation {
+    margin-top: 0px;
+    background-color: #cbcbcb;
+    width: 750px;
+    border-left: 10px solid #707571;
+    border-right: 10px solid #707571;
+    border-bottom: 15px solid #707571;
+    border-top: 10px solid #707571;
+	margin-left: 12px
+}
+.links {
+    list-style-type: none;
+	padding: 5px; 
+	overflow: none; 
+}
+.homepagelink {
+    display: inline;
+    font-size: 30px;
+    padding: 25px;
+    text-decoration: none;
+    border-right: 3px solid #707571;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: 25px
+}
+.infolink {
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+    border-right: 3px solid #707571;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: 25px
+}
+.threadslink {
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+    border-right: 3px solid #707571;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: 25px
+}
+.breeserslink {
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: 25px
+}
+.content {
+	display: inline-flex ;
+	width: 900px;
+	align-content: center;
+	justify-content: center
+}
+.activeprofilesbox {
+    float: left;
+    margin-top: 30px;
+    width: 400px;
+    border: 5px solid #cbcbcb;
+    background-color: #cbcbcb;
+	height: 510px;
+	margin-left: 0px
+}
+.activeheaderwrap {
+    width: 350px;
+    border-bottom: 2px solid #707571;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.activeheader {
+    margin-left: 40px;
+    padding-top: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: #707571;
+}
+.profile1 {
+    padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+	display: inline-flex;
+}
+.onlinedot {
+	width: 10px;
+	height: 10px;
+	padding-top: 19px;
+	padding-left: 10px
+}
+.recentpostsbox {
+	margin-top: 30px;
+    width: 900px;
+    border: 5px solid #cbcbcb;
+    background-color: #cbcbcb;
+	height: 1140px;
+	margin-bottom: 10px;
+	margin-left: 20px
+}
+.profilebio {
+    padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 12px;
+    border-bottom: 2px solid #707571;
+}
+.recentpoststxt {
+    margin-left: 100px;
+    padding-top: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: #707571; 
+}
+.recentpoststxtwrap {
+	width: 450px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	padding-left: 30px;
+	 border-bottom: 2px solid #707571;
+}
+.button {
+	padding-top: 5px;
+	padding-left: 120px;
+	border: none;
+	padding-bottom: 5px
+}
+.profile2 {
+	padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 20px;
+	display: inline-flex;
+	padding-top: 10px
+}
+.offlinecircle {
+	width: 15px;
+	height: 15px;
+	padding-top: 5px;
+	padding-left: 10px
+}
+.post1 {
+	border: 1px solid #EDECEB;
+    background-color: #EDECEB;
+	margin-bottom: 10px; 
+	margin-top: 10px
+}
+.postedpic {
+    display: flex;
+	width: 800px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.postedpic1 {
+	width: 200px;
+	height: 220px;
+	padding-left:80px;
+	padding-top: 10px;
+	padding-bottom: 5px
+}
+.posttxt {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 25px;
+	width: 320px;
+	padding-left: 100px
+}
+.postedsince {
+    padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 12px;
+    padding-bottom: 5px;
+    font-style: italic;
+	padding-top: 2px
+}
+.heartemoji {
+	height: 30px;
+	margin-left: 180px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-flex
+}
+.commentemoji {
+	height: 35px;
+	margin-left: 180px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-flex
+}
+.followemoji
+{
+	height: 35px;
+	margin-left: 180px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-flex
+}
+.onlinecircle2 {
+	width: 15px;
+	height: 15px;
+	padding-top: 3px;
+	padding-left: 10px
+}
+.postedpic2 {
+	height: 200px;
+	width: 320px;
+	padding-left:80px;
+	padding-top: 10px;
+	padding-bottom: 5px
+}
+.breederads {
+    margin-top: 30px;
+    width: 400px;
+    border: 5px solid #cbcbcb;
+    background-color: #cbcbcb;
+	height: 595px
+}
+.offlinecircle2 {
+	width: 10px;
+	height: 10px;
+	padding-top: 19px;
+	padding-left: 10px
+}
+.bottomtxt {
+	ont-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+	margin-left: 600px
+}
+.staffinfotxt {
+	padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 12px;
+	
+}
+.staffname {
+	padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+	padding-bottom: 0px;
+	color: #707571;
+}
+.sitestaffwrap {width: 350px;
+    border-bottom: 2px solid #707571;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.fakeprolink {
+    padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+    color: #3366cc;
+    text-decoration: underline;
+}
+.infobox {
+	width: 900px;
+	height: 350px;
+	align-content: center;
+	justify-content: center;
+	background-color: #cbcbcb;
+	margin-left: 20px;
+	margin-top: 30px;
+	border: 5px solid #707571
+}
+.siterulesbox {
+    margin-top: 30px;
+    width: 400px;
+    border: 5px solid #707571;
+    background-color: #cbcbcb;
+	height: 650px;
+}
+.sitehistorywrap {
+	width: 270px;
+    height: 60px;
+	border: 5px solid 350px;
+    border: 2px solid #707571;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	margin-right: 30px;
+	display: flex
+}
+.sitehistoryheader {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: #707571;
+	height: 50px;
+	margin-top: 10px;
+	padding-left: 20.5px
+}
+.infotxtbox {
+	display:inline-flex;
+}
+.siteinfo {
+    display: inline-flex;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #707571;
+}
+.siteinfop {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 90px;
+    width: 600px;
+    text-align: center;
+	color: #707571
+}
+.fakelinkinfo {
+    margin-left: 230px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.siterules {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+	color: #707571;
+	display: inline-block
+}
+.breedersinfobox {
+	width: 900px;
+	height: 260px;
+	align-content: center;
+	justify-content: center;
+	background-color: #cbcbcb;
+	margin-left: 20px;
+	margin-top: 30px;
+	border: 5px solid #707571;
+}
+.content2 {
+	display: inline-block
+}
+.breederadheader {
+    margin-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: #707571;
+    border-width: 0px 0px 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #707571;
+	width: 320px;
+}
+.breederadwrap {
+	margin-top: 10px
+}
+.disclaimer {
+    text-align: center;	
+}
+.threadstartmssg {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #707571;
+	padding-left: 30px;
+	padding-top: 10px
+}
+
+.threadposts {
+    margin-top: 30px;
+    width: 482.5px;
+    height: 400px;
+    background-color: #cbcbcb;
+    border: 5px solid #707571;
+}
+.threadimg1 {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	padding-top: 20px;
+	padding-left: 20px
+}
+.thread {
+    display: inline-flex;
+}
+.threadusername {
+    float: right;
+    padding-right: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 13px;
+    color: #707571;
+    border-bottom-width: 1px;
+}
+.threadcommentswrap {
+    width: 482.5px;
+    border-bottom: 1px solid #707571;
+	height: 110px
+}
+.threadcomment {
+    float: left;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+    color: #707571;
+}
+.threadcommentswrap2 {
+	width: 482.5px;
+    border-bottom: 1px solid #707571;
+	height: 60px
+}
+.threadusername2 {
+	float: right;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 13px;
+    color: #707571;
+	margin-top: 40px;
+	margin-right: 40px
+}
+.threadcomment2 {
+    float: left;
+    padding-left: 80px;
+    margin-top: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+    color: #707571;
+}
+.threadcomment3 {
+    float: left;
+    padding-left: 100px;
+    margin-top: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+    color: #707571;
+}
+.threadcomment35 {
+    float: left;
+    padding-left: 100px;
+    margin-top: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 15px;
+    color: #707571;
+	height: 50px
+}
+.threadcommentswrap3 {
+	width: 482.5px;
+    border-bottom: 1px solid #707571;
+	height: 130px
+}
+.threadbutton {
+	align-content: center ;
+	justify-content: center;
+	display: flex;
+	padding-top: 10px
+}
+.threadpostswrap {
+	align-content: center;
+	justify-content: center;
+	display: inline-flex
+}
